@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSite", "StudentSite\StudentSite.csproj", "{39D46F82-54AD-4F0A-AFED-A1059E64F315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTutorDataServices", "..\..\..\Downloads\OnlineTutor-master\OnlineTutor-master\OnlineTutorDataServices\OnlineTutorDataServices.csproj", "{2FFA822E-5F14-4FCB-BF6F-DC9ACC0C4F25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D46F82-54AD-4F0A-AFED-A1059E64F315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D46F82-54AD-4F0A-AFED-A1059E64F315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D46F82-54AD-4F0A-AFED-A1059E64F315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D46F82-54AD-4F0A-AFED-A1059E64F315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFA822E-5F14-4FCB-BF6F-DC9ACC0C4F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFA822E-5F14-4FCB-BF6F-DC9ACC0C4F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFA822E-5F14-4FCB-BF6F-DC9ACC0C4F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFA822E-5F14-4FCB-BF6F-DC9ACC0C4F25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5BB9405-F257-427A-9D37-DCE3D9ED910E}
+	EndGlobalSection
+EndGlobal

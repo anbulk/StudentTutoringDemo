@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student's Site</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/Content/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="~/Content/style.css" type="text/css" media="all">
+    <script type="text/javascript" src="~/Scripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/cufon-yui.js"></script>
+    <script type="text/javascript" src="~/Scripts/cufon-replace.js"></script>
+    <script type="text/javascript" src="~/Scripts/Myriad_Pro_300.font.js"></script>
+    <script type="text/javascript" src="~/Scripts/Myriad_Pro_400.font.js"></script>
+    <script type="text/javascript" src="~/Scripts/script.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body id="page1">
+    <!-- START PAGE SOURCE -->
+    <div class="wrap">
+        <header>
+            <div class="container">
+                <h1><a href="#">Student's site</a></h1>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html" class="m1">Home Page</a></li>
+                        <li><a href="about-us.html" class="m2">About Us</a></li>
+                        <li><a href="articles.html" class="m3">Our Articles</a></li>
+                        <li><a href="contact-us.html" class="m4">Contact Us</a></li>
+                        <li class="last"><a href="sitemap.html" class="m5">Sitemap</a></li>
+                    </ul>
+                </nav>
+                <form action="#" id="search-form">
+                    <fieldset>
+                        <div class="rowElem">
+                            <input type="text">
+                            <a href="#">Search</a>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </header>
+        <div class="container">
+            <aside>
+                <h3>Categories</h3>
+                <ul class="categories">
+                    <li><span><a href="#">Programs</a></span></li>
+                    <li><span><a href="#">Student Info</a></span></li>
+                    <li><span><a href="#">Teachers</a></span></li>
+                    <li><span><a href="#">Descriptions</a></span></li>
+                    <li><span><a href="#">Administrators</a></span></li>
+                    <li><span><a href="#">Basic Information</a></span></li>
+                    <li><span><a href="#">Vacancies</a></span></li>
+                    <li class="last"><span><a href="#">Calendar</a></span></li>
+                </ul>
+              
+            </aside>
+            
+
+            <section id="content">
+                @RenderBody()
+                <div id="banner">
+                    <h2>Professional <span>Online Education <span>Since 1992</span></span></h2>
+                </div>
+                <div class="inside">
+                    <h2>Recent <span>Cources</span></h2>
+                    <ul class="list">
+                        <li>
+                            <span><img src="~/Content/images/icon1.png"></span>
+                            <h4>About Cource</h4>
+                            <p>Course1</p>
+                        </li>
+                        <li>
+                            <span><img src="~/Content/images/icon2.png"></span>
+                            <h4>Course2</h4>
+                            <p>Some Course</p>
+                        </li>
+                        <li class="last">
+                            <span><img src="~/Content/images/icon3.png"></span>
+                            <h4>Student’s Time</h4>
+                            <p>Some Course</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="footerlink">
+            
+         
+            <div style="clear:both;"></div>
+        </div>
+    </footer>
+    <script type="text/javascript">Cufon.now();</script>
+    <!-- END PAGE SOURCE -->
+</body>
+</html>
+
+
+
+
+   
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
